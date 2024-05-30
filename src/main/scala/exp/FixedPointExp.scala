@@ -29,7 +29,7 @@ class FixedPointExp(val wholeWidth: Int, val fractionalWidth: Int) extends Modul
 
 object FixedPointExp extends App {
   ChiselStage.emitSystemVerilogFile(
-    new FixedPointExp(16, 8),
+    new FixedPointExp(8, 7),
     Array("--target-dir", "verilog/"),
     firtoolOpts = Array("-disable-all-randomization", "-strip-debug-info"),
   )

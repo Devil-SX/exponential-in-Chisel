@@ -344,3 +344,9 @@ src/main/scala/float
 src/test/scala/divide
 src/test/scala/float
 verilog
+
+.github
+.metals
+.vscode
+*.csv
+*.pdf
